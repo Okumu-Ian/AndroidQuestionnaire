@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">ITsforHer</string>
+    <string name="access_code">Enter Anonymous Nickname</string>
+    <string name="submitbutton">Submit</string>
+    <string name="enter_access">Please enter your access code below and press submit to continue.</string>
+
+    <string name="startbutton">START</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="welcomemessage">
+        ITsforHer and all of us involved would love to hear about your thoughts and opinions about women in STEM(Science, Technology, Engineering and Mathematics) fields.
+    </string>
+    <string name="part2">
+        This short survey consists of 10 multiple choice questions and will take no longer than 5 minutes to complete.</string>
+    <string name="part3">
+        All responses are completely anonymous!</string>
+    <string name="part4">
+        Please press start when you are ready to continue.
+    </string>
+
+
+    <string name="questioncount">Question 1/10</string>
+    <string name="question1">What is your gender?</string>
+
+    <string name="q1a1">Male</string>
+    <string name="q1a2">Female</string>
+
+
+    <string name="questioncount2">Question 2/10</string>
+    <string name="question2">What is your age?</string>
+    <string name="q2a1">16–20</string>
+    <string name="q2a2">21–25</string>
+    <string name="q2a3">26–30</string>
+    <string name="q2a4">31–39</string>
+    <string name="q2a5">40+ </string>
+
+    <string name="questioncount3">Question 3/10</string>
+    <string name="question3">Which of the following best describes your highest level of completed education?</string>
+    <string name="q3a1">School Leaver</string>
+    <string name="q3a2">Apprentice</string>
+    <string name="q3a3">Undergraduate</string>
+    <string name="q3a4">Postgraduate</string>
+    <string name="q3a5">Other</string>
+
+    <string name="questioncount4">Question 4/10 </string>
+    <string name="question4">Do you currently work or study in a STEM (Science, Technology, Engineering and Math) field </string>
+    <string name="q4a1">Yes</string>
+    <string name="q4a2">No</string>
+
+    <string name="questioncount5">Question 5/10 </string>
+    <string name="question5">Are you working towards entering or moving further in a STEM field?</string>
+    <string name="q5a1">Yes</string>
+    <string name="q5a2">No</string>
+
+    <string name="questioncount6">Question 6/10 </string>
+    <string name="question6">Do you believe women can have a successful career as well as manage all household affairs, including childcare and housework?</string>
+    <string name="q6a1">Yes</string>
+    <string name="q6a2">No</string>
+
+    <string name="questioncount7">Question 7/10</string>
+    <string name="question7">Do you believe there should be specialised projects/programs for only women, in STEM fields?</string>
+    <string name="q7a1">Yes</string>
+    <string name="q7a2">No</string>
+
+
+    <string name="questioncount8">Question 8/10</string>
+    <string name="question8">Do you believe the ‘Glass Ceiling’ still exists in industries today? </string>
+    <string name="q8a1">Yes</string>
+    <string name="q8a2">No</string>
+
+    <string name="questioncount9">Question 9/10</string>
+    <string name="question9">From your own experience, when, out of the following, do you think the number of women was at its highest in STEM fields?</string>
+    <string name="q9a1">Secondary School</string>
+    <string name="q9a2">Sixth-form</string>
+    <string name="q9a3">University</string>
+    <string name="q9a4">First 5 years in industry</string>
+    <string name="q9a5">Between 6 and 10 years in industry</string>
+    <string name="q9a6">Permanent job in industry</string>
+
+    <string name="questioncount10">Question 10/10</string>
+    <string name="question10">Which of the following statements do you think best describes the low number of women in STEM fields?</string>
+    <string name="q10a1">Male domination in these fields.</string>
+    <string name="q10a2">Women are pushed towards non-practical subjects throughout life.</string>
+    <string name="q10a3">The attitude of men towards women in these fields.</string>
+    <string name="q10a4">STEM subjects are not taught thoroughly at school so no interest in shown later in life.</string>
+    <string name="q10a5">Advertisement for technology (past and present) is mainly focused at men.</string>
+    <string name="q10a6">Other</string>
+
+    <string name="nextbutton">Next</string>
+    <string name="submitanswers">Submit Answers</string>
+
+
+    <string name="endpart1">THANK-YOU!</string>
+    <string name="endpart2">Thank-you for your time and responses.</string>
+    <string name="endpart3">Your answers have been submitted and you may now close the application.</string>
+    <string name="endbutton">Close Application</string>
+    <string name="logo">LOGO</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="366dp"
+            android:layout_height="285dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/access_code"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:text="@string/enter_access"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/access_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/access_code"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/backbtn"
+        android:textColor="#ffffff"
+        android:text="@string/submitbutton"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

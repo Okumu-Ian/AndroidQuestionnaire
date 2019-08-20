@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="20dp"
+    tools:context=".EndPage">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="272dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/endpgpart1"
+        android:layout_width="364dp"
+        android:layout_height="70dp"
+        android:layout_above="@id/endpgpart2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/endpart1"
+        android:textAlignment="center"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/endpgpart2"
+        android:layout_width="364dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/closeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/endpart3"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="300dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/backbtn"
+        android:textColor="#ffffff"
+        android:text="@string/endbutton"
+        android:textSize="24sp" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

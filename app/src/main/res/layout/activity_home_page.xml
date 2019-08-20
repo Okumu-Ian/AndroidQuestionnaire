@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="377dp"
+            android:layout_height="262dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/startmessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/welcome"
+            android:textAlignment="center"
+            android:textSize="28sp"
+
+            />
+
+        <TextView
+            android:id="@+id/startmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/part2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/welcomemessage"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/part2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/part3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/part2"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/part3"
+            android:layout_width="364dp"
+            android:layout_height="35dp"
+            android:layout_above="@id/part4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/part3"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/part4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/startButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/part4"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/backbtn"
+        android:textColor="#ffffff"
+        android:text="@string/startbutton"
+        android:textSize="24sp" />
+
+</RelativeLayout>
